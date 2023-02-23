@@ -1,0 +1,92 @@
+// Import font
+@import url(https://use.typekit.net/znh6lde.css);
+
+*{
+
+}
+
+body{
+    background: #c8a47e;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "futura-pt", sans-serif;
+}
+
+p{
+    font-family: "futura-pt", sans-serif;
+}
+
+a{
+    font-family: "futura-pt", sans-serif;
+
+}
+
+// Header
+.website-header{
+
+    .website-header-inner{
+        padding: 25px;
+
+        .row{
+
+            .website-header-branding{
+
+                h2{
+                    padding: 0px;
+                    margin: 0px;
+
+                    a{
+                        text-decoration: none;
+                        font-weight: 400;
+                        font-size: 1.4em;
+
+                        color: #000;
+                    }
+                }
+            }
+
+            .website-header-navigation{
+
+                .header-navigation-main{
+
+                    ul{
+                        margin: 0px;
+                        padding: 0px;
+
+                        float: right;
+
+                        padding-top: 10px;
+
+                        li{
+                            display: inline-block;
+                            margin-left: 25px;
+
+                            a{
+                                font-size: 1.3em;
+                                font-weight: 400;
+
+                                text-decoration: none;
+
+                                color: #000;
+                            }
+                        }
+
+                        li:first-child{
+                            margin-left: 0px;
+                        }
+
+                        li:hover{
+                            border-bottom: 2px solid #000;
+
+                            a{
+
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
