@@ -21,13 +21,16 @@ const Layout = ({pageMeta, children}) => {
   return (
     <>
         <Helmet>
-            <title>{ `${ app_name } | ${ pageMeta.title }` }</title>
+            <title>{ ` ${ pageMeta.title } | ${ app_name }  `}</title>
 
             <meta charset={ app_charset } />
             <meta name="description" content={ pageMeta.description } />
             <meta name="keywords" content={ app_keywords} />
             <meta name="author" content={ app_author } />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+            <link rel="icon" type="image/png" href="/images/logo-lc-white-solid.png" />
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/logo-lc-white-solid.png" />
         </Helmet>
         <div className='website'>
             <Header />

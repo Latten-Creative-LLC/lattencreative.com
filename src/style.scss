@@ -2,11 +2,11 @@
 @import url(https://use.typekit.net/znh6lde.css);
 
 *{
-
+    transition: all .2s ease;
 }
 
 body{
-    background: #c8a47e;
+    background: #eae1d3;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -22,6 +22,30 @@ a{
 
 }
 
+.line{
+    border-bottom: 3px solid #000;
+    width: 100%;
+}
+
+// Buttons
+.lc-btn{
+    border: 2px solid #000;
+    font-size: 1.4vw;
+
+    letter-spacing: .2vw;
+
+    border-radius: 50px;
+
+    height: 3.8vw;
+    width: 12.4vw;
+
+    padding: 15px 25px;
+
+    text-decoration: none;
+
+    color: #000;
+}
+
 // Header
 .website-header{
 
@@ -29,6 +53,18 @@ a{
         padding: 25px;
 
         .row{
+
+            .website-header-desc{
+                text-align: right;
+
+                p{
+                    font-weight: bold;
+                    font-size: 1.3em;
+
+                    color: #000;
+                    padding-top: 15px;
+                }
+            }
 
             .website-header-branding{
 
@@ -42,6 +78,11 @@ a{
                         font-size: 1.4em;
 
                         color: #000;
+
+                        img{
+                            width:55px;
+                            border-radius: 50%;
+                        }
                     }
                 }
             }
@@ -62,13 +103,19 @@ a{
                             display: inline-block;
                             margin-left: 25px;
 
+                            border-bottom: 1px solid #000;
+
                             a{
                                 font-size: 1.3em;
-                                font-weight: 400;
+                                font-weight: bold;
 
                                 text-decoration: none;
 
                                 color: #000;
+
+                                sub{
+                                    margin-top: -30px
+                                }
                             }
                         }
 
@@ -77,7 +124,7 @@ a{
                         }
 
                         li:hover{
-                            border-bottom: 2px solid #000;
+                            border-bottom: 4px solid #000;
 
                             a{
 
@@ -85,6 +132,277 @@ a{
                         }
 
                     }
+                }
+            }
+        }
+    }
+}
+
+// Footer
+.website-footer{
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    .footer-inner{
+
+        .footer-branding{
+            text-align: center;
+
+            h1{
+                font-size: 5em;
+
+                .word-one{
+                    font-weight: bold
+                }
+
+                .word-two{
+                    font-weight: 100;
+                }
+            }
+
+            p{
+                font-weight: bold;
+                margin-top:-10px;
+            }
+        }
+
+        .footer-links{
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            ul{
+                text-align: center;
+                padding: 0px;
+                margin: 0px;
+
+                li{
+                    display: inline-block;
+                    margin-left: 25px;
+
+                    a{
+                        font-size:1.6em;
+                        font-weight: 400;
+
+                        color: #000;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .footer-credits{
+
+            p{
+                text-align: center;
+                font-size: 1.2em;
+                font-weight: 400;
+
+                color: #000;
+            }
+        }
+    }    
+}
+
+// Index
+.welcome{
+    padding: 20px 0px;
+
+    .welcome-container{
+
+        .intro{
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+
+            .intro-inner{
+                
+                .intro-title{
+                    
+                    h1{
+                        font-size:10em;
+                        font-weight: 600;
+
+                        letter-spacing: 30px;
+
+                        color: #000;
+
+                        padding: 0px;
+                        margin: 0px;
+                    }
+
+                    h1.intro-title-second{
+                        margin-top: -40px
+                    }
+                }
+
+                .intro-desc{
+                    padding: 15px;
+
+                    p{
+                        font-size:4em;
+                        line-height: 60px
+                    }
+                }
+
+                .intro-action{
+                    padding: 20px;
+                }
+            }
+        }
+
+        .welcome-mission{
+            padding: 20px;
+
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+
+
+            h2{
+                font-size: 5em;
+                font-weight: 600;
+
+                color: #000;
+            }
+
+            p{
+                font-size: 2em;
+                font-weight: 400;
+
+                color: #000;
+            }
+
+            .welcome-information{
+                padding-top: 50px;
+
+                .welcome-information-block{
+
+                    .welcome-information-block-inner{
+
+                        h2{
+                            font-size:1.8em;
+                            font-weight: 600;
+                        }
+
+                        p{
+                            padding-top: 10px;
+                            font-size: 1.5em;
+                            font-weight: 400;
+
+                            line-height: 30px
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// About
+.about-us-page{
+
+    .about-us-page-inner{
+
+        .about-us-page-main{
+
+            .about-us-page-main-inner{
+                padding: 0px;
+
+                .about-us-page-main-row{
+                    padding: 0px;
+
+                    .about-us-page-main-left{
+
+                        .about-us-page-main-left-inner{
+                            padding:10px;
+                            padding-top: 50px;
+
+                            h2{
+                                font-size: 3em;
+                                font-weight: 600;
+
+                                color: #000;
+                            }
+
+                            .outline-block{
+                                padding-bottom: 30px;
+
+                                h2{
+                                    font-size:2em;
+                                    font-weight:400
+                                }
+
+                                ul{
+                                    padding: 0px;
+                                    margin: 0px;
+
+                                    li{
+                                        list-style: none;
+    
+                                        a{
+                                            color: #000;
+                                            font-size: 1.1em;
+    
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .about-us-page-main-right{
+                        padding: 20px;
+
+                        .about-us-page-main-right-inner{
+                            padding-top: 30px;
+                            
+                            .upper-quote{
+
+                                h1{
+                                    font-weight:600
+                                }
+                            }
+
+                            .bottom-our-story{
+                                padding-top: 20px;
+
+                                p{
+                                    font-size: 1.4em;
+                                    padding-bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .about-us-page-welcome{
+            padding-bottom: 50px;
+
+            .welcome-upper{
+                padding-top: 50px;
+
+                h1{
+                    font-size: 9em;
+                    font-weight: 400;
+
+                    letter-spacing: 30px;
+
+                    color: #000;
+
+                    padding: 0px;
+                    margin: 0px;
+                }
+            }
+
+            .welcome-lower{
+
+                p{
+                    font-size: 2em;
+                    font-weight: 400;
+
+                    line-height: 35px;
+
+                    color: #000;
                 }
             }
         }
