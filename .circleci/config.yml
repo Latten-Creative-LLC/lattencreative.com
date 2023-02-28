@@ -20,4 +20,3 @@ workflows:
             branches:
               only:
                 - production
-                
