@@ -3,6 +3,8 @@
 
 *{
     transition: all .2s ease;
+    font-family: "futura-pt", sans-serif;
+
 }
 
 body{
@@ -11,14 +13,27 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     font-family: "futura-pt", sans-serif;
+    color: #212529;
 }
 
 p{
     font-family: "futura-pt", sans-serif;
 }
 
-a{
+a, li{
     font-family: "futura-pt", sans-serif;
+}
+
+// General
+h3.featured{
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 400;
+
+    background: white;
+    border-radius: 22px;
+    line-height: 20px;
+    padding: 10px 15px;
 
 }
 
@@ -27,10 +42,22 @@ a{
     width: 100%;
 }
 
+.scrolling-callout{
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+    h1{
+        font-size: 5em;
+        font-weight: 100;
+        color: #212529;
+    }
+}
+
 // Buttons
 .lc-btn{
     border: 2px solid #000;
     font-size: 1.4vw;
+    font-weight: bold;
 
     letter-spacing: .2vw;
 
@@ -44,6 +71,16 @@ a{
     text-decoration: none;
 
     color: #000;
+
+    @media screen and (max-width: 768px){
+        font-size: 4vw
+    }
+
+}
+
+.lc-btn:hover{
+    color: white;
+    background: #000;
 }
 
 // Header
@@ -57,6 +94,10 @@ a{
             .website-header-desc{
                 text-align: right;
 
+                @media screen and (max-width: 768px){
+                    display: none;
+                }
+
                 p{
                     font-weight: bold;
                     font-size: 1.3em;
@@ -69,6 +110,10 @@ a{
             .website-header-branding{
 
                 h2{
+                    @media screen and (max-width: 768px){
+                        text-align: center;
+                    }
+
                     padding: 0px;
                     margin: 0px;
 
@@ -97,6 +142,12 @@ a{
 
                         float: right;
 
+                        @media screen and (max-width: 768px){
+                            padding-top: 30px;
+                            float: none;
+                            text-align: center;
+                        }
+
                         padding-top: 10px;
 
                         li{
@@ -106,6 +157,10 @@ a{
                             border-bottom: 1px solid #000;
 
                             a{
+                                @media screen and (max-width: 768px){
+                                    font-size: 3vw;
+                                }
+
                                 font-size: 1.3em;
                                 font-weight: bold;
 
@@ -114,6 +169,9 @@ a{
                                 color: #000;
 
                                 sub{
+                                    @media screen and (max-width: 768px){
+                                        display: none;
+                                    }
                                     margin-top: -30px
                                 }
                             }
@@ -149,6 +207,9 @@ a{
             text-align: center;
 
             h1{
+                @media screen and (max-width: 768px){
+                    font-size: 2em
+                }
                 font-size: 5em;
 
                 .word-one{
@@ -180,6 +241,10 @@ a{
                     margin-left: 25px;
 
                     a{
+                        @media screen and (max-width: 768px){
+                            font-size: 1.3em;
+                        }
+
                         font-size:1.6em;
                         font-weight: 400;
 
@@ -187,6 +252,7 @@ a{
                         text-decoration: none;
                     }
                 }
+
             }
         }
 
@@ -210,14 +276,28 @@ a{
     .welcome-container{
 
         .intro{
+            @media screen and (max-width: 768px){
+                text-align: center;
+
+                padding-top: 2vh;
+            }
+
             padding-top: 10vh;
             padding-bottom: 10vh;
 
             .intro-inner{
                 
                 .intro-title{
+                    @media screen and (max-width: 768px){
+                        padding: 25px;
+                        text-align: center;
+                    }
                     
                     h1{
+                        @media screen and (max-width: 768px){
+                            font-size: 10vw;
+                        }
+
                         font-size:10em;
                         font-weight: 600;
 
@@ -230,6 +310,9 @@ a{
                     }
 
                     h1.intro-title-second{
+                        @media screen and (max-width: 768px){
+                            margin: 0px;
+                        }
                         margin-top: -40px
                     }
                 }
@@ -238,6 +321,10 @@ a{
                     padding: 15px;
 
                     p{
+                        @media screen and (max-width: 768px){
+                            font-size: 4vw;
+                            line-height: 30px
+                        }
                         font-size:4em;
                         line-height: 60px
                     }
@@ -315,6 +402,13 @@ a{
                             padding:10px;
                             padding-top: 50px;
 
+                            @media screen and (max-width: 768px){
+                                padding: 30px;
+
+                                padding-bottom: 0px;
+                                padding-top: 10px;
+                            }
+
                             h2{
                                 font-size: 3em;
                                 font-weight: 600;
@@ -351,6 +445,12 @@ a{
                     .about-us-page-main-right{
                         padding: 20px;
 
+                        @media screen and (max-width: 768px){
+                            padding:40px;
+                            padding-top: 0px;
+                            padding-bottom: 0px;
+                        }
+
                         .about-us-page-main-right-inner{
                             padding-top: 30px;
                             
@@ -382,6 +482,12 @@ a{
                 padding-top: 50px;
 
                 h1{
+                    @media screen and (max-width: 768px){
+                        font-size:3em;
+                        text-align: center;
+                        letter-spacing: 10px;
+                    }
+
                     font-size: 9em;
                     font-weight: 400;
 
@@ -395,14 +501,246 @@ a{
             }
 
             .welcome-lower{
+                @media screen and (max-width: 768px){
+                    padding: 20px;
+                }
 
                 p{
+                    @media screen and (max-width: 768px){
+                        font-size: 1.2em;
+                        line-height: 25px;
+                    }
                     font-size: 2em;
                     font-weight: 400;
 
                     line-height: 35px;
 
                     color: #000;
+                }
+            }
+        }
+    }
+}
+
+// Work
+.work-page{
+
+    .work-page-inner{
+
+        .work-welcome{
+            padding-bottom: 50px;
+
+            .welcome-upper{
+                padding-top: 50px;
+
+                h1{
+                    @media screen and (max-width: 768px){
+                        font-size:3em;
+                        text-align: center;
+                        letter-spacing: 10px;
+
+                    }
+                    font-size: 9em;
+                    font-weight: 400;
+
+                    letter-spacing: 30px;
+
+                    color: #000;
+
+                    padding: 0px;
+                    margin: 0px;
+                }
+            }
+
+            .welcome-lower{
+                @media screen and (max-width: 768px){
+                    padding: 20px;
+                    padding-bottom: 0px;
+                }
+
+                p{
+                    @media screen and (max-width: 768px){
+                        font-size: 1.2em;
+                        line-height: 25px;
+                        
+                        text-align: center;
+                    }
+                    font-size: 2em;
+                    font-weight: 400;
+
+                    line-height: 35px;
+
+                    color: #000;
+                }
+            }
+        }
+
+        .work-page-main{
+
+            .work-page-main-inner{
+                padding-top: 50px;
+                padding-bottom: 50px;
+
+                .work-page-main-row{
+
+                    .work-page-main-left{
+                        @media screen and (max-width: 768px){
+                            padding-bottom: 50px;
+                        }
+
+                        .work-page-linear-case{
+                            background-size: cover;
+                            height: 600px;
+
+                            border-radius: 18px;
+
+                            background-repeat: no-repeat;
+
+                            .work-page-linear-case-inner{
+                                background: rgba(0,0,0,.3);
+                                height: 100%;
+                                width: 100%;
+
+                                border-radius: 18px;
+
+                                padding: 30px;
+
+                                position: relative;
+
+                                cursor: pointer;
+
+                                .top-category{
+
+                                    h3.featured{
+                                        color: white;
+                                        font-size: 1.5em;
+                                        font-weight: bold;
+
+                                        padding-bottom: 5px;
+                                    }
+
+                                    ul{
+                                        padding: 0px;
+                                        margin: 0px;
+
+                                        li{
+                                            color: white;
+                                            list-style: none;
+
+                                            font-size:1.2em;
+                                            font-weight: bold;
+
+                                            padding-bottom: 5px;
+                                        }
+                                    }
+                                }
+
+                                .bottom-title{
+                                    padding-top: 20px;
+
+                                    position: absolute;
+                                    bottom: 20px;
+
+                                    h2{
+                                        color: white;
+                                        font-size: 2.7em;
+                                        font-weight: 400;
+                                    }
+
+                                    p{
+                                        color: white;
+                                        font-size: 1.5em;
+
+                                        line-height: 25px;
+                                    }
+
+                                    a{
+                                        color: white;
+                                        font-size: 1.5em;
+
+                                        line-height: 25px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .case-one{
+                            
+                        }
+                    }
+
+                    .work-page-main-right{
+
+                        .work-page-horizontal-case{
+                            background-size: cover;
+                            height: 400px;
+
+                            border-radius: 18px;
+
+                            background-repeat: no-repeat;
+
+                            margin-bottom: 50px;
+
+                            .work-page-horizontal-case-inner{
+                                background: rgba(0,0,0,.4);
+                                height: 100%;
+                                width: 100%;
+
+                                border-radius: 18px;
+
+                                padding: 30px;
+
+                                position: relative;
+
+                                cursor: pointer;
+
+                                .top-category{
+
+                                    ul{
+                                        padding: 0px;
+                                        margin: 0px;
+
+                                        li{
+                                            color: white;
+                                            list-style: none;
+
+                                            font-size:1.2em;
+                                            font-weight: bold;
+
+                                            padding-bottom: 5px;
+                                        }
+                                    }
+                                }
+
+                                .bottom-title{
+                                    padding-top: 20px;
+
+                                    position: absolute;
+                                    bottom: 20px;
+
+                                    h2{
+                                        color: white;
+                                        font-size: 2.7em;
+                                        font-weight: 400;
+                                    }
+
+                                    p{
+                                        color: white;
+                                        font-size: 1.5em;
+
+                                        line-height: 25px;
+                                    }
+
+                                    a{
+                                        color: white;
+                                        font-size: 1.5em;
+
+                                        line-height: 25px;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

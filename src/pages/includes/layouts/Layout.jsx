@@ -29,7 +29,7 @@ const Layout = ({pageMeta, children}) => {
             <meta name="author" content={ app_author } />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-            <link rel="icon" type="image/png" href="/images/logo-lc-white-solid.png" />
+            <link rel="icon" type="image/png" href="/images/logo-lc-black-solid.png" />
             <link rel="apple-touch-icon" sizes="180x180" href="/images/logo-lc-white-solid.png" />
         </Helmet>
         <div className='website'>

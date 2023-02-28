@@ -1,9 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Marquee from "react-fast-marquee";
 
 export default function Footer({url}) {
 
   return (
+    <>
+    <div className='scrolling-callout'>
+      <Marquee gradient={false}  speed={150}>
+        <h1>Lets make something amazing</h1>
+      </Marquee>
+    </div>
+    <div className='line'></div>
     <footer className='website-footer'>
         <div className='footer-inner container'>
           <div class="footer-branding">
@@ -23,5 +31,6 @@ export default function Footer({url}) {
           </div>
         </div>
     </footer>
+    </>
   )
 }
