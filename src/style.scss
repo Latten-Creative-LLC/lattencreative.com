@@ -596,6 +596,10 @@ h3.featured{
 
                             background-repeat: no-repeat;
 
+                            a{
+                                text-decoration: none
+                            }
+
                             .work-page-linear-case-inner{
                                 background: rgba(0,0,0,.3);
                                 height: 100%;
@@ -680,6 +684,11 @@ h3.featured{
                             background-repeat: no-repeat;
 
                             margin-bottom: 50px;
+
+                            a{
+                                text-decoration: none
+
+                            }
 
                             .work-page-horizontal-case-inner{
                                 background: rgba(0,0,0,.4);
