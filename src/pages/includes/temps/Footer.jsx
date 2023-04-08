@@ -23,7 +23,7 @@ export default function Footer({url}) {
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/about'>About</Link></li>
                 <li><Link to='/work'>Work</Link></li>
-                <li><Link to='mailto:business@lattencreative.com'>Contact</Link></li>
+                <li><Link to='tel:4402134860'>Contact</Link></li>
               </ul>
           </div>
           <div className='footer-credits'>

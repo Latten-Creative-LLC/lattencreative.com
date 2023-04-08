@@ -23,7 +23,7 @@ export default function Index() {
                   <p>A multidisciplinary creative studio specializing in web development, design, and branding.</p>
                 </div>
                 <div className='intro-action'>
-                  <a href='/' className='lc-btn'>Lets Collab</a>
+                  <a href='https://calendly.com/lattencreative/30min?month=2023-04' className='lc-btn'>Lets Collab</a>
                 </div>
               </div>
             </div>
