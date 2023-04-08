@@ -27,7 +27,7 @@ export default function Header() {
                             <li><Link to='/'><sub>01</sub> Home</Link></li>
                             <li><Link to='/about'><sub>02</sub> About</Link></li>
                             <li><Link to='/work'><sub>03</sub> Work</Link></li>
-                            <li><Link to='mailto:business@lattencreative.com'><sub>04</sub> Contact</Link></li>
+                            <li><Link to='tel:4402134860'><sub>04</sub> Contact</Link></li>
                         </ul>
                     </nav>
                 </div>
