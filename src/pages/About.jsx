@@ -63,7 +63,7 @@ export default function About() {
 
                         <ul>
                           <li><a href='mailto:business@lattencreative.com'>business@lattencreative.com</a></li>
-                          <li><a href='tel:2168897822'>216-889-7822</a></li>
+                          <li><a href='tel:4402134860'>440-213-4860</a></li>
                         </ul>
                       </div>
                     </div>

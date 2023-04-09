@@ -82,7 +82,7 @@ export default function Work() {
 
                           <div className='bottom-title'>
                             <h2>Latten Technologies, LLC</h2>
-                            <p>An underground Ohio fashion brand</p>
+                            <p>A new technology firm seaking to create the next big thing!</p>
                           </div>
                         </div>
                       </a>  
