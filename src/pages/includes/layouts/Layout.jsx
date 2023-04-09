@@ -18,16 +18,33 @@ const app_author = process.env.REACT_APP_AUTHOR;
 const app_charset = process.env.REACT_APP_CHARSET;
 
 const Layout = ({pageMeta, children}) => {
+
+
   return (
     <>
         <Helmet>
             <title>{ ` ${ pageMeta.title } | ${ app_name }  `}</title>
 
+            {/* SEO */}
             <meta charset={ app_charset } />
             <meta name="description" content={ pageMeta.description } />
             <meta name="keywords" content={ app_keywords} />
             <meta name="author" content={ app_author } />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="robots" content="index, follow" />
+            <link href={ app_url } rel="canonical" />
+
+            {/* Open Graph */}
+            <meta property="og:title" content={`${ pageMeta.title }`} />
+            <meta property="og:type" content="Website" />
+            <meta property="og:url" content={window.location} />
+            <meta property="og:description" content={ pageMeta.description } />
+            <meta property="og:image" content="/images/logo-lc-black-solid.png" />
+
+            {/* Twitter */}
+            <meta property="twitter:title" content={`${ pageMeta.title }`} />
+            <meta property="twitter:description" content={ pageMeta.description} />
+            <meta property="twitter:image" content="/images/logo-lc-black-solid.png" />
 
             <link rel="icon" type="image/png" href="/images/logo-lc-black-solid.png" />
             <link rel="apple-touch-icon" sizes="180x180" href="/images/logo-lc-white-solid.png" />
