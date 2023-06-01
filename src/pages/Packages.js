@@ -97,8 +97,8 @@ export default function Packages() {
                                 </div>
                                 <div className='package-items'>
                                     <ul>
-                                        <li>4 Pages</li>
-                                        <li>Website</li>
+                                        <li>Unlimited Pages</li>
+                                        <li>Ecommerce</li>
                                         <li>Branding</li>
                                         <li>UI/UX Design</li>
                                         <li>SEO</li>
@@ -126,7 +126,7 @@ export default function Packages() {
                                 </div>
                                 <div className='package-items'>
                                     <ul>
-                                        <li>4 Pages</li>
+                                        <li>Unlimited Pages</li>
                                         <li>Website</li>
                                         <li>Branding</li>
                                         <li>UI/UX Design</li>
