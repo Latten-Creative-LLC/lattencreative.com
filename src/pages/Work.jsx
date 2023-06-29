@@ -14,7 +14,7 @@ export default function Work() {
     <Layout pageMeta={meta}> 
         <div className='work-page'>
           <div className='work-page-inner'>
-            <div className='work-welcome container'>
+            <div className='work-welcome container-lg'>
               <div className='welcome-upper'>
                 <h1>Work</h1>
               </div>
@@ -24,7 +24,7 @@ export default function Work() {
             </div>
             <div className='line'></div>
             <div className='work-page-main'>
-              <div className='work-page-main-inner container'>
+              <div className='work-page-main-inner container-lg'>
                 <div className='work-page-main-row row'>
                   <div className='work-page-main-left col-lg-4'>
                     <div className='work-page-linear-case case-one' style={{backgroundImage: "url('/images/case_studies/st_pierre/cover_image.webp')"}}>

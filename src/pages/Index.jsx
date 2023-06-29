@@ -28,7 +28,7 @@ export default function Index() {
               </div>
             </div>
             <div className='line'></div>
-            <div className='welcome-mission container'>
+            <div className='welcome-mission container-lg'>
               <div className='welcome-mission-inner'>
                 <h2>Our Mission</h2>
                 <p>Our mission is to collaborate and create beautiful things with creative people from around the world. Our goal is to showcase the best in creative design in regards to branding, website development and more. Let's create arts, and the next big thing!</p>
