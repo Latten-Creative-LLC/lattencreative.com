@@ -26,7 +26,7 @@ export default function Header() {
                             <li><Link to='/packages'><sub>02</sub> Packages</Link></li>
                             <li><Link to='/about'><sub>03</sub> About</Link></li>
                             <li><Link to='/work'><sub>04</sub> Work</Link></li>
-                            <li><Link to='tel:4402134860'><sub>05</sub> Contact</Link></li>
+                            <li><Link to='/contact'><sub>05</sub> Contact</Link></li>
                         </ul>
                     </nav>
                 </div>
