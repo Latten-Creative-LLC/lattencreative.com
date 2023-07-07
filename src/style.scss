@@ -24,6 +24,44 @@ a, li{
     font-family: "futura-pt", sans-serif;
 }
 
+// Forms
+.form-group{
+    margin-bottom: 20px;
+
+    label{
+        font-weight: 400;
+        font-size: 1.2em;
+        display: block;
+    }
+
+    input[type='text'], input[type='email'], textarea{
+        border: 1px solid #000;
+        border-radius: 0px;
+        padding: 10px 15px;
+        font-size: 1.2em;
+        font-weight: 400;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    textarea{
+        height: 200px;
+        resize: none;
+    }
+
+    input[type='submit']{
+        border: 1px solid #000;
+        border-radius: 0px;
+        padding: 10px 15px;
+        font-size: 1.2em;
+        font-weight: 400;
+        width: 100%;
+        border-radius: 5px;
+        background: #000;
+        color: white;
+    }
+}
+
 // General
 h3.featured{
     color: #000;
