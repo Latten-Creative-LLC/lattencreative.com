@@ -13,7 +13,7 @@ export default function About() {
     <Layout pageMeta={meta}>
         <div className='about-us-page'>
           <div className='about-us-page-inner'>
-            <div className='about-us-page-welcome container'>
+            <div className='about-us-page-welcome container-lg'>
               <div className='welcome-upper'>
                 <h1>About Us</h1>
               </div>
@@ -23,7 +23,7 @@ export default function About() {
             </div>
             <div className='line'></div>
             <div className='about-us-page-main'>
-              <div className='about-us-page-main-inner container'>
+              <div className='about-us-page-main-inner container-lg'>
                 <div className='about-us-page-main-row row'>
                   <div className='about-us-page-main-right col-lg-9'>
                     <div className='about-us-page-main-right-inner'>

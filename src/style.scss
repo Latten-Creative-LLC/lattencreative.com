@@ -24,6 +24,44 @@ a, li{
     font-family: "futura-pt", sans-serif;
 }
 
+// Forms
+.form-group{
+    margin-bottom: 20px;
+
+    label{
+        font-weight: 400;
+        font-size: 1.2em;
+        display: block;
+    }
+
+    input[type='text'], input[type='email'], textarea{
+        border: 1px solid #000;
+        border-radius: 0px;
+        padding: 10px 15px;
+        font-size: 1.2em;
+        font-weight: 400;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    textarea{
+        height: 200px;
+        resize: none;
+    }
+
+    input[type='submit']{
+        border: 1px solid #000;
+        border-radius: 0px;
+        padding: 10px 15px;
+        font-size: 1.2em;
+        font-weight: 400;
+        width: 100%;
+        border-radius: 5px;
+        background: #000;
+        color: white;
+    }
+}
+
 // General
 h3.featured{
     color: #000;
@@ -353,7 +391,6 @@ h3.featured{
         .welcome-mission{
             padding: 20px;
 
-            padding-top: 10vh;
             padding-bottom: 10vh;
 
             @media screen and (max-width: 768px){
@@ -498,6 +535,12 @@ h3.featured{
         }
 
         .about-us-page-welcome{
+            @media screen and (max-width: 989px)
+            {
+                padding: 20px;
+                width: 100%;
+            }
+
             padding-bottom: 50px;
 
             .welcome-upper{
@@ -603,7 +646,6 @@ h3.featured{
         .work-page-main{
 
             .work-page-main-inner{
-                padding-top: 50px;
                 padding-bottom: 50px;
 
                 .work-page-main-row{
@@ -785,10 +827,111 @@ h3.featured{
     width: 100%;
 }
 
+.case-studies{
+
+    .case-studies-inner{
+
+        .case-studies-title{
+            padding-top: 50px;
+
+            @media screen and (max-width: 768px){
+                padding: 25px;
+                text-align: center;
+                padding-left: 10px;
+            }
+            
+            h1{
+                @media screen and (max-width: 768px){
+                    font-size: 5em;
+                    font-weight: 600;
+
+                    color: #000;
+                    text-align: left;
+                }
+
+                font-size:5em;
+                font-weight: 600;
+
+                color: #000;
+
+                padding: 0px;
+                margin: 0px;
+            }
+        }
+
+        .case-studies-desc{
+
+            p{
+                font-size: 2em;
+                font-weight: 400;
+                color: #000;
+            }
+        }
+
+        .case-studies-grid{
+
+            .case-studies-grid-inner{
+                padding-top: 50px;
+                padding-bottom: 50px;
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                align-items: left;
+                gap: 0px;
+
+                .case-studies-grid-item{
+                    @media screen and (max-width: 768px){
+                        flex-basis: 100%;
+                    }
+
+                    flex-basis: 50%;
+                    background: white;
+                    background-size:cover;
+
+                    height: 300px;
+
+                    cursor: pointer;
+
+                    .case-studies-grid-item-inner{
+                       // background: rgba(0,0,0,.3);
+
+                        .case-studies-grid-item-title{
+                            padding-bottom: 20px;
+
+                            // Put the title at the bottom of the parent div
+                            margin-top: 196px;
+
+                            background: rgba(0,0,0,.6);
+
+                            padding: 20px;
+
+                            h3{
+                                font-size: 2.1em;
+                                font-weight: 500;
+
+                                color: #fff;
+
+                                margin: 0px;
+                                padding: 0px;
+                            }
+
+                            a{
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 .packages-inner{
     padding-top: 50px;
-    padding-left:15px;
-    padding-right:10px;
+    padding-left:25px;
+    padding-right:25px;
     padding-bottom: 50px;
 
     display:flex;

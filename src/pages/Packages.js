@@ -13,7 +13,7 @@ export default function Packages() {
     <Layout pageMeta={meta}>
         <div className='about-us-page'>
           <div className='about-us-page-inner'>
-            <div className='about-us-page-welcome container'>
+            <div className='about-us-page-welcome container-lg'>
               <div className='welcome-upper'>
                 <h1>Packages</h1>
               </div>
@@ -23,7 +23,7 @@ export default function Packages() {
             </div>
             <div className='line'></div>
             <div className='about-us-page-main'>
-                <div className='packages container'>
+                <div className='packages container-lg'>
                     <div className='packages-inner row'>
                         {/* Package 1 */}
                         <div className='package'>
