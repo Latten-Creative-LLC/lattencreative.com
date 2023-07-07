@@ -9,6 +9,15 @@ export default function Index() {
     description: [ "A multidisciplinary creative studio specializing in campaigns, brands, and spaces." ]
   }
 
+  // Make array of case studies
+  const caseStudies = [
+    {
+      title: "James Latten",
+      image: "case_studies/jameslatten.png",
+      link: "https://jameslatten.com"
+    },
+  ]
+
   return (
     <Layout pageMeta={meta}>
         <div className='welcome'>
@@ -28,6 +37,33 @@ export default function Index() {
               </div>
             </div>
             <div className='line'></div>
+            <div className='case-studies'>
+              <div className='case-studies-inner'>
+                <div className='case-studies-title container-lg'>
+                  <h1>Case Studies</h1>
+                </div>
+                <div className='case-studies-desc container-lg'>
+                  <p>Take a look at some of our best work and see what we can do for you.</p>
+                </div>
+                <div className='case-studies-grid'>
+                  <div className='case-studies-grid-inner'>
+                    {caseStudies.map((caseStudy, index) => (
+                      <div className='case-studies-grid-item' key={index}>
+                        <div className='case-studies-grid-item-inner'>
+                          <div className='case-studies-grid-item-image'>
+
+                          </div>
+                          <div className='case-studies-grid-item-title'>
+                            <h3>{caseStudy.title}</h3>
+                            <a href={caseStudy.link}>View Here</a>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className='welcome-mission container-lg'>
               <div className='welcome-mission-inner'>
                 <h2>Our Mission</h2>
