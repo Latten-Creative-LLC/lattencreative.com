@@ -28,9 +28,7 @@ export default function Packages() {
                         {/* Package 1 */}
                         <div className='package'>
                             <div className='package-inner'>
-                                <div className='package-price'>
-                                    <h2>$1200</h2>
-                                </div>
+
                                 <div className='package-title'>
                                     <h2>Small Website</h2>
                                 </div>
@@ -49,7 +47,7 @@ export default function Packages() {
                                     </ul>
                                 </div>
                                 <div className='package-action'>
-                                    <a href='https://calendly.com/lattencreative/30min?month=2023-04' className='lc-btn'>Get Started</a>
+                                    <a href='https://calendly.com/lattencreative/30min' className='lc-btn'>Get Started</a>
                                 </div>
                             </div>
                         </div>
@@ -57,9 +55,7 @@ export default function Packages() {
                         {/* Package 1 */}
                         <div className='package'>
                             <div className='package-inner'>
-                                <div className='package-price'>
-                                    <h2>$1800</h2>
-                                </div>
+
                                 <div className='package-title'>
                                     <h2>Large Website</h2>
                                 </div>
@@ -78,7 +74,7 @@ export default function Packages() {
                                     </ul>
                                 </div>
                                 <div className='package-action'>
-                                    <a href='https://calendly.com/lattencreative/30min?month=2023-04' className='lc-btn'>Get Started</a>
+                                    <a href='https://calendly.com/lattencreative/30min' className='lc-btn'>Get Started</a>
                                 </div>
                             </div>
                         </div>
@@ -86,9 +82,6 @@ export default function Packages() {
                         {/* Package 1 */}
                         <div className='package'>
                             <div className='package-inner'>
-                                <div className='package-price'>
-                                    <h2>$2500</h2>
-                                </div>
                                 <div className='package-title'>
                                     <h2>Online Shop</h2>
                                 </div>
@@ -107,7 +100,7 @@ export default function Packages() {
                                     </ul>
                                 </div>
                                 <div className='package-action'>
-                                    <a href='https://calendly.com/lattencreative/30min?month=2023-04' className='lc-btn'>Get Started</a>
+                                    <a href='https://calendly.com/lattencreative/30min' className='lc-btn'>Get Started</a>
                                 </div>
                             </div>
                         </div>
@@ -115,9 +108,7 @@ export default function Packages() {
                         {/* Package 1 */}
                         <div className='package' id="main_package">
                             <div className='package-inner'>
-                                <div className='package-price'>
-                                    <h2>$75/ Hour</h2>
-                                </div>
+
                                 <div className='package-title'>
                                     <h2>Custom</h2>
                                 </div>
@@ -136,7 +127,7 @@ export default function Packages() {
                                     </ul>
                                 </div>
                                 <div className='package-action'>
-                                    <a href='https://calendly.com/lattencreative/30min?month=2023-04' className='lc-btn'>Get Started</a>
+                                    <a href='https://calendly.com/lattencreative/30min' className='lc-btn'>Get Started</a>
                                 </div>
                             </div>
                         </div>
