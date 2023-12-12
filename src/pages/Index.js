@@ -39,15 +39,11 @@ export default function Index() {
           <div className='welcome-container'>
             <div className='intro container-lg'>
               <div className='intro-inner'>
-                <div className='intro-title'>
-                  <h1 className='intro-title-first'>Latten</h1>
-                  <h1 className='intro-title-second'>Creative</h1>
-                </div>
                 <div className='intro-desc'>
-                  <p>A multidisciplinary creative studio specializing in web development, design, and branding.</p>
+                  <p><b>Latten Creative</b> is a multidisciplinary creative studio specializing in web development, design, and branding.</p>
                 </div>
                 <div className='intro-action'>
-                  <a href='https://calendly.com/lattencreative/30min?month=2023-04' className='lc-btn'>Lets Collab</a>
+                  <a href='https://calendly.com/lattencreative/30min' className='lc-btn'>Lets Collab</a>
                 </div>
               </div>
             </div>

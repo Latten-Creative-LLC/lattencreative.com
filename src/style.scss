@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #eae1d3;
+    background: #fff;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -36,7 +36,7 @@ a, li{
 
     input[type='text'], input[type='email'], textarea{
         border: 1px solid #000;
-        border-radius: 0px;
+        border-radius: 2px;
         padding: 10px 15px;
         font-size: 1.2em;
         font-weight: 400;
@@ -134,6 +134,7 @@ h3.featured{
     .website-header-inner{
         padding: 25px;
         padding-left: 20px;
+
         .row{
 
             .website-header-desc{
@@ -171,7 +172,7 @@ h3.featured{
 
                         img{
                             width:55px;
-                            border-radius: 50%;
+                            border-radius: 2%;
                         }
                     }
                 }
@@ -217,7 +218,8 @@ h3.featured{
                                     @media screen and (max-width: 768px){
                                         display: none;
                                     }
-                                    margin-top: -30px
+                                    margin-top: -30px;
+                                    font-size: 0.5em;
                                 }
                             }
                         }
