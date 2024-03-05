@@ -29,7 +29,7 @@ export default function Index() {
     {
       title: "PHNTM Labs",
       image: "images/case_studies/phntm/cover_image.png",
-      link: "https://phntmlabs.com"
+      link: "https://phntm.com"
     },
   ]
 
