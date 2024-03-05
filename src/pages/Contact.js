@@ -118,7 +118,7 @@ export default function Contact() {
                     <h2>Contact</h2>
 
                     <ul>
-                      <li><a href='mailto:business@lattencreative.com'>business@lattencreative.com</a></li>
+                      <li><a href='mailto:jlatten@lattencreative.com'>jlatten@lattencreative.com</a></li>
                       <li><a href='tel:4402134860'>440-213-4860</a></li>
                     </ul>
                   </div>
