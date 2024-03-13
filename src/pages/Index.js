@@ -40,7 +40,7 @@ export default function Index() {
             <div className='intro container-lg'>
               <div className='intro-inner'>
                 <div className='intro-desc'>
-                  <p><b>Latten Creative</b> is a multidisciplinary creative studio specializing in web development, design, and branding.</p>
+                  <p><b>Latten Creative</b> is a multidisciplinary creative studio specializing in website development, design, and branding.</p>
                 </div>
                 <div className='intro-action'>
                   <a href='https://calendly.com/lattencreative/30min' className='lc-btn'>Lets Collab</a>
